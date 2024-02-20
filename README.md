@@ -2,7 +2,7 @@
 
 # Radar-MV_fusion
 A sensor fusion method that fuses radar detetions in geographic goordinates with video detections which locations are converted to geographic coordinates.
-The video detections are done with 
+The video detections are done with YoloV4
 There are two different ways of fusing radar data and video data, checkline-method and continuous data fusion.
 For both methods, first step is to calculate velocities of detecions made with machine vision and acceleration for detection made with machine vision and radar sensor
 # Checkline
